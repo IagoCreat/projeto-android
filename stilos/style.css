@@ -1,4 +1,9 @@
 @charset "utf-*" ;
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
 body{
    background-color:#84e0ac;
    margin: 0px;
@@ -32,7 +37,8 @@ nav > a:hover {
 main {
 background-color: white;
    margin: auto;
-   width: 1084px;
+   min-width: 350px;
+   max-width: 800px;
   }
 main > form {
     padding: 32px 34px;
@@ -49,10 +55,10 @@ main>form>p {
    text-indent: 40px;
 }
 main>form>picture>img{
-   width: 1015px;
+   width: 100%;
 }
 main>form>img{
-   width: 1015px;
+   width: 100%;
 }
 .sombra{ 
    background-image:linear-gradient(90deg,#84e0ac,white);
@@ -63,18 +69,16 @@ main>form>img{
    margin: left: 10px;
    width: 700px;
 }
-div >img {
- margin:1px 200px 1px 300px;
-}
+
 dl{
    background-color: rgb(26, 92, 56);
-    width: 1084px;
+    width: 100%;
     height: 440px;
     margin: 0px 0px 10px 0px;
    }
  dl>dt>iframe{
       margin: 20px 50px 20px 50px;
-      width: 985px;
+      max-width: 1000px;
     height: 400px;
    }
     .listas {
@@ -102,10 +106,13 @@ dl{
       background-color: #84e0ac;
       border-radius: 10px;
       height: 377px;
+      min-width: 350px;
+      max-width: 800px;
    }
    h3{
       padding: 10px;
    }
    article>p {
-      padding-left: 10px;
+      width: 100%;
+      
    }
