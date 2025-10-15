@@ -62,14 +62,13 @@ main>form>img{
 }
 .sombra{ 
    background-image:linear-gradient(90deg,#84e0ac,white);
-   margin: left: 10px;
+   margin: left 10px;
 }
 .sombramenor {
    background-image:linear-gradient(90deg,#84e0ac,white);
-   margin: left: 10px;
-   width: 700px;
+   margin: left 10px;
+   width:700px;
 }
-
 dl{
    background-color: rgb(26, 92, 56);
     width: 100%;
